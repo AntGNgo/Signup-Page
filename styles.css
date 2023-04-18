@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap');
+
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+em {
+    font-style: italic;
+}
+
+.left {
+    background: url("coffee-bg.jpg") center;
+    background-size: cover;
+    width: 40vw;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(248, 248, 248);
+}
+
+.logo {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 20%;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.137);
+}
+
+.logo img {
+    width: 46px;
+}
+
+.logo p {
+    font-size: 3rem;
+}
+
+.intro-text {
+    margin-bottom: 36px;
+    padding: 0 5rem;
+    font-size: 1.5rem;
+}
+
+.intro-text-main {
+    margin-bottom: 1.5rem;
+}
+
+.cta {
+    margin-bottom: 1.5rem;
+}
+
+.form-main {
+    font-size: 1.5rem;
+    margin: 1.1rem 0 1.2rem 0;
+}
+
+.boxed-content {
+    box-shadow: 10px 10px 67px -50px rgba(0,0,0,0.75);
+    /* border: 1px solid rgba(182, 181, 181, 0.411); */
+    padding-left: 5rem;
+    padding-bottom: 2rem;
+}
+
+#signup-form {
+    display: flex;
+}
+
+#signup-form label {
+    text-transform: uppercase;
+    padding-bottom: 2px;
+    color: gray;
+}
+
+#signup-form input {
+    width: 17rem;
+    height: 1.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid rgba(128, 128, 128, 0.205);
+}
+
+#signup-form input:invalid {
+    border: 1px solid hsla(0, 100%, 50%, 0.521);
+}
+
+.left-col, .right-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.right-col {
+    margin-left: 5rem;
+}
+
+button {
+    color: white;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    width: 15rem;
+    background-color: #656D4A;
+    padding: 10px 0;
+    border: none;
+    box-shadow: 10px 10px 67px -30px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.login {
+    margin: 3rem 5rem;
+    font-size: 20px;
+}
+
+.login a {
+    text-decoration: none;
+    color: #656D4A;
+}
